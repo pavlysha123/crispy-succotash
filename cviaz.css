@@ -1,0 +1,55 @@
+.t-text a {
+    color: #d99a6d;
+    text-decoration: none;
+}
+
+.t554__card {
+    position: absolute;
+    background: white;
+    min-height: 300px;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 100%;
+    top: 60px;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.t-align_left {
+    text-align: left;
+}
+
+.t-width_5 {
+    max-width: 460px;
+}
+
+.t554__title {
+    margin-bottom: 30px;
+}
+.t-heading_sm {
+    font-size: 28px;
+    line-height: 1.17;
+}
+.t-heading {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.t-descr_sm {
+    font-size: 18px;
+    line-height: 1.55;
+}
+.t-text {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.t-sociallinks {
+    margin-top: 30px;
+}
+
+.coloor:before {
+    color: #111;
+}

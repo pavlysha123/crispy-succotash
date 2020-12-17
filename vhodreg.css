@@ -1,0 +1,213 @@
+.bobody {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .027em;
+}
+
+.laypro {
+    background: #fff;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.lepricon {
+    width: 58.33333%;
+    padding-left: 100px;
+    padding-right: 125px;
+    text-align: center;
+    padding: 0;
+}
+.laypro .view {
+    margin: 0 auto;
+    max-width: 610px;
+    width: 100%;
+    height: 100%;
+    padding: 80px 15px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fssign {
+    height: 100%;
+    text-align: center;
+    color: #000;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.laypro .viewsi {
+    max-width: none;
+    height: 100%;
+    overflow: visible;
+}
+
+.fssign h1 {
+    color: #000;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 30px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: 3.76px;
+    margin-bottom: 30px;
+}
+
+.laypro .view .intro {
+    margin-bottom: 80px;
+}
+
+.TextInput {
+    position: relative;
+    margin: 15px 0 10px;
+    padding-bottom: 30px;
+}
+
+.formfie {
+    background: 0 0;
+    color: inherit;
+}
+
+.textfie:invalid {
+    box-shadow: none;
+}
+
+.formfie {
+    width: 100%;
+    height: 46px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    padding: .5em 0;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.formlab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s ease;
+    white-space: nowrap;
+    z-index: 50;
+}
+
+.noacc {
+    margin: 0;
+    text-align: left;
+}
+
+a {
+    color: #000;
+}
+
+.viewact {
+    margin-top: 40px;
+    max-width: none;
+    -ms-flex-pack: end;
+}
+ .viewact {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 0;
+}
+
+.viewact > fs-button {
+    padding: 0;
+    margin: 0 10px;
+}
+
+.CTA-dark {
+    align-items: center;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.CTA-dark:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.laypro-backim {
+    background-color: #d8d8d8;
+    background-image: url("../images/regvhod.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    bottom: 0;
+    display: block;  
+    left: 50%;
+    margin-left: 141.75px;
+    height: 803px;
+}
+
+label {
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.textfie:focus {
+    outline: 0;
+}
+
+.textfie:focus::placeholder {
+    opacity: 0;
+}
+
+.viewact>fs-button>button {
+    width: 200px;
+    height: 40px;
+}
+
+.TextInput .textfie:focus+.formlab {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.ty-cссс {
+    line-height: 1.3em;
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: .55556rem;
+    letter-spacing: .3em;
+}

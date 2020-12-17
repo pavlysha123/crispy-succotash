@@ -1,0 +1,428 @@
+.fspro .secnavb, .fspro body .Secondary-Navigation-bar {
+    background-color: #2d2d2d;
+    height: 55px;
+}
+
+.fspro .secnavb .secnavlin, .fspro body .secnavb .secnavlin {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fspro .secnavb .secnavit, .fspro body .secnavb .secnavit {
+    display: inline-block;
+    padding: 0 20px;
+}
+.fspro *, .fspro body * {
+    box-sizing: border-box;
+}
+
+.fspro .secnavb .secnavit:first-of-type::before, .fspro body .secnavb .secnavit:first-of-type::before {
+    display: block;
+    float: right;
+    margin: 16px -44px 0;
+    width: 2px;
+    height: 23px;
+    content: "";
+    background-color: #d8d8d8;
+    opacity: .7;
+}
+
+.fspro .secnavb .secnavit:first-of-type a, .fs-profile-2018 body .secnavb .secnavit:first-of-type a {
+    font-weight: 700;
+}
+.fspro .secnavb .secnavit a, .fspro body .secnavb .Secondary-Navigation-item a {
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+    display: inline-block;
+    padding: 18px 0;
+    font-size: .74667rem;
+    font-weight: 500;
+    transition: none;
+}
+.fspro .gta-dark, .fspro .gta-dark:visited, .fs-profile-2018 body .gta-dark, .fspro body .gta-dark:visited {
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-size: .55556rem;
+    font-weight: 700;
+    letter-spacing: .25em;
+    line-height: 1.33333em;
+    text-transform: uppercase;
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    transition: background-color .3s ease-out,color .3s ease-out,border-color .3s ease-out;
+}
+
+.fspro .gta-dark:not([disabled]):focus, .fspro .gta--text--dark:not([disabled]):hover, .fspro .gta-dark:visited:not([disabled]):focus, .fspro .gta-dark:visited:not([disabled]):hover, .fspro body .gta-dark:not([disabled]):focus, .fspro body .gta-dark:not([disabled]):hover, .fspro body .gta-dark:visited:not([disabled]):focus, .fspro body .gta-dark:visited:not([disabled]):hover {
+    border-color: #999;
+    color: #999;
+}
+
+.fspro .secnavb .secnavit:first-of-type a, .fs-profile-2018 body .secnavb .secnavit:first-of-type a {
+    font-weight: 700;
+}
+
+.fspro .secnavb .secnavit:nth-of-type(2), html.fspro body .secnavb .secnavit:nth-of-type(2) {
+    padding-left: 40px;
+}
+
+.fspro .secnavb .secnavit, .fspro body .secnavb .secnavit {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.fspro .viewprobar, .fspro body .viewprobar {
+    background: #fff;
+    color: #000;
+}
+
+.fspro .udetrow, .fspro body .udetrow {
+    padding-top: 145px;
+    padding-bottom: 140px;
+    padding: 110px 0;
+    text-align: left;
+}
+
+.fspro .conta, .fspro body .conta {
+    max-width: 930px;
+    width: 100%;
+}
+
+.fspro .conta, .fspro body .conta {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.conta-fluid:after, .conta-fluid:before, .conta:after, .conta:before, .roww:after, .roww:before {
+    content: " ";
+    display: table;
+}
+
+.fspro .roww, .fspro body .roww {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.fspro body .roww::before {
+    display: table;
+    content: '';
+}
+
+.fspro .col-lg-6, .fspro body .col-lg-6 {
+    width: 50%;
+}
+
+.fspro [class*=col-], .fspro body [class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fspro [class*=col-], .fspro body [class*=col-] {
+    float: left;
+    vertical-align: middle;
+}
+
+.usdet {
+    margin-bottom: 0;
+}
+
+.fspro .usdetname, .fspro body .usdetname {
+    font-size: 2.22222rem;
+    line-height: 1.1;
+    letter-spacing: 1.43px;
+    text-align: left;
+    margin: 0 0 30px;
+    text-transform: capitalize;
+}
+
+.fspro .usdet .gtaundli, .fspro body .usdet .viewproyour {
+    font-size: .66667rem;
+}
+
+.fspro .gtaundli, .fspro .gtaundli:visited, html.fspro body .gtaundli, .fspro body .gtaundli:visited {
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-size: .55556rem;
+    letter-spacing: .25em;
+    line-height: 1.33333em;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    padding: 0 0 3px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom-color: #000;
+    color: #000;
+    transition: background-color .3s ease-out,color .3s ease-out,border-color .3s ease-out;
+}
+
+.fspro .contextual p, .fspro body .contextual p {
+    font-size: 1.44444rem !important;
+    line-height: 1.54 !important;
+    letter-spacing: 1px !important;
+    text-align: left !important;
+}
+
+.fspro .contextual p, .fspro body .contextual p {
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-weight: 250;
+    font-size: 1.11111rem;
+    line-height: 1.6;
+    margin: 0 0 16px;
+    letter-spacing: .9px;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.fspro .contextual__actions, .fspro body .contextual__actions {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fspro .contextual__actions, .fspro body .contextual__actions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.fspro .contextual__actions a, .fspro .contextual__actions button, .fs-profile-2018 body .contextual__actions a, .fspro body .contextual__actions button {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.fspro .gta--secondary--dark, .fspro .gta--secondary--dark--on-dark, .fspro body .gta--secondary--dark, .fspro body .gta--secondary--dark--on-dark {
+    align-items: center;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.fspro .gta--secondary--dark, .fspro .gta--secondary--dark--on-dark, .fspro .gta--secondary--transparent, .fspro body .gta--secondary--dark, .fspro body .gta--secondary--dark--on-dark, .fspro body .gta--secondary--transparent {
+    line-height: 1.3em;
+    -ms-flex-align: center;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: .55556rem;
+    font-weight: 700;
+    transition: background-color .3s ease-out,color .3s ease-out,border-color .3s ease-out;
+    cursor: pointer;
+    letter-spacing: .3em;
+    min-width: 130px;
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.fspro .udetrow, .fspro body .udetrow {
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-weight: 250;
+}
+
+.fspro .gtaundli:not([disabled]):hover {
+    color: #767676;
+    border-color: #767676;
+}
+
+.fspro .gta--secondary--dark:not([disabled]):hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.fspro .viewproyour, .fspro body .viewproyour {
+    padding-top: 120px;
+}
+
+.fspro .viewproyour, .fspro body .viewproyour {
+    background: #000;
+    color: #fff;
+    padding: 75px 0 25px;
+}
+
+.fspro .conta, .fspro body .conta {
+    max-width: 930px;
+    width: 100%;
+}
+
+.conta h2 {
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-weight: 250;
+    font-size: 1.33333rem;
+    text-align: left;
+    color: inherit;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1.3;
+}
+
+.fspro .viewproyour p, .fspro body .viewproyour p {
+    margin: 0 0 25px;
+}
+
+constructed stylesheet
+.fspro body p, .fspro p {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.fspro .fsyouprepre, .fspro body .fsyouprepre {
+    padding: 50px 0 20px;
+}
+
+.fspro .fsyouprepre .fs-toggle-block, .fspro body .fs-your-preferences__preference .fs-toggle-block {
+    margin-bottom: 0;
+}
+
+.fspro .fs-toggle-block, .fspro body .fs-toggle-block {
+    margin: 0 0 40px;
+}
+
+.fspro .fs-toggle-block__row, .fspro body .fs-toggle-block__row {        
+    position: relative;
+}
+
+.fspro .fs-toggle-block__label, .fspro body .fs-toggle-block__label {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.fspro .fs-toggle-block__label>div:first-child, .fspro body .fs-toggle-block__label>div:first-child {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+
+.fspro body .fsyouprepre__title {
+    max-width: 450px;
+}
+
+.fspro .fsyouprepre__title, .fspro body .fs-your-preferences__preference__title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 40px;
+    margin: 0 0 30px;
+    position: relative;
+    padding: 0;
+}
+
+.fspro .fsyouprepre--sleep .icon, .fspro body .fs-your-preferences__preference--sleep .icon {
+    background-image: url(../images/sleep.svg);
+}
+
+
+.fspro .fsyouprepre__title .icon, .fspro body .fs-your-preferences__preference__title .icon {
+    margin-right: 34px;
+}
+
+.fspro .fsyouprepre__title .icon, .fspro body .fs-your-preferences__preference__title .icon {
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin-right: 26px;
+    margin-right: 34px;
+}
+
+.fspro .fsyouprepre__title h3, .fspro body .fs-your-preferences__preference__title h3 {
+    text-transform: uppercase;
+    color: inherit;
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.fspro .fsyouprepre .fs-toggle-block__row .fs-toggle-button, .fspro body .fsyouprepre .fs-toggle-block__row .fs-toggle-button {
+    margin-top: 0;
+}
+
+.fspro .fs-toggle-block__row .fs-toggle-button, .fspro body .fs-toggle-block__row .fs-toggle-button {
+    display: block;
+    margin-left: auto;
+}
+
+.fspro .fs-toggle-button, .fspro body .fs-toggle-button {
+    background: 0 0;
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+}
+
+.fspro .fs-toggle-button, .fspro .fs-toggle-button--light, .fs-profile-2018 body .fs-toggle-button, .fspro body .fs-toggle-button--light {
+    font-size: .55556rem;
+    line-height: 13px;
+    padding: 12px 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Neue Helvetica W04",Neue Helvetica,Helvetica,sans-serif;
+}
+
+.fspro body button, .fspro button {
+    width: auto;
+}
+
+.fspro .fsyourpresel, .fspro body .fsyouprepre__selected-preferences {
+    padding-left: 74px !important;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fspro .fsyourpresel li, .fspro body .fsyouprepre__selected-preferences li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.fspro .fsyourpresel li:before, .fs-profile-2018 body .fsyourpresel li:before {
+    content: '-';
+    margin-right: 4px;
+}
+
+.fspro .fsyouprepre--room .icon, .fspro body .fs-your-preferences__preference--room .icon {
+    background-image: url(../images/room.svg);
+}
+
+.fs-toggle-button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
